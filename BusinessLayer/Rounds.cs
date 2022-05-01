@@ -36,13 +36,12 @@ namespace BusinessLayer
 
         }
 
-        public Rounds(decimal characterOneState, decimal characterTwoState, int roundIndex, int diceResult, DateTime createdOn)
+        public Rounds(decimal characterOneState, decimal characterTwoState, int roundIndex, int diceResult)
         {
             CharacterOneState = characterOneState;
             CharacterTwoState = characterTwoState;
             RoundIndex = roundIndex;
             DiceResult = diceResult;
-            CreatedOn = createdOn;
         }
     }
 }
